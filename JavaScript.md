@@ -127,4 +127,7 @@ const MyCar = {Type:"Hatchback", Make:"Hyundai", Owner:"Bobby",
 
 <details><summary>Other</summary>
 https://dev.to/kartik2406/built-in-data-structures-in-javascript-hhl
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+https://www.hackreactor.com/blog/what-is-javascript-used-for
+https://www.grandcircus.co/blog/10-things-you-can-build-with-javascript/
 </details>
