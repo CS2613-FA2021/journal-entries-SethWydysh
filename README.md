@@ -1,3 +1,7 @@
 # Journals
 
-Follow the steps detailed on D2L regarding journals.
+[JavaScript](https://github.com/CS2613-FA2021/journal-entries-SethWydysh/blob/main/JavaScript.md)
+
+[Racket]
+
+[Matlab]
