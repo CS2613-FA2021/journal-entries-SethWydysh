@@ -1,26 +1,26 @@
 # JavaScript
 
 ## Basics
-###Syntax
+### Syntax
 
 
-###Semantics
+### Semantics
 
 
-###Built in Data Structures
+### Built in Data Structures
 
 
-##How JS works & Using JS
+## How JS works & Using JS
 
-###Under the hood
+### Under the hood
 
-###Supported Paradigms 
-
-
-##Advanced
+### Supported Paradigms 
 
 
+## Advanced
 
 
-##Interesting Libraries
+
+
+## Interesting Libraries
 
