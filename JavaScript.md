@@ -30,15 +30,15 @@ And assignment with an operator: +=, -=, *=, /=
 
 Comparing variables by doing:
 ```Javascript
-var foo = 7
-var bar = "7"
+var foo = 7;
+var bar = "7";
 //Check if the value matches
 if(foo == bar){
-  console.log("foo == bar")
+  console.log("foo == bar");
 }
 //Check if the value and type matches
 if(foo === bar){
-  console.log("foo === bar")
+  console.log("foo === bar");
 }
 ```
 
@@ -47,7 +47,7 @@ if(foo === bar){
 You can create functions using the 'Function' keyword:
 ```Javascript
 function Product(x, y){
-  return x * y
+  return x * y;
 }
 ```
 ### Built in Data Structures
@@ -57,18 +57,18 @@ Dynamic arrays in JS where you can add and remove elements.
 Not restricted to 1 type of data within an array: Can store strings, doubles, objects in one structure.
 
 ```Javascript
-let vehicles = ["Planes", "Trains", "Automobiles"]
-vehicles.push("Bikes")
-console.log(vehicles)
+let vehicles = ["Planes", "Trains", "Automobiles"];
+vehicles.push("Bikes");
+console.log(vehicles);
 ```
 ### Sets
 Similar to arrays but order does not matter and only keeps unique items.
 ```Javascript
-let ID = new Set("001", "002", "003", "004")
-ID.add("005")     //Adds 005 to the set
-ID.delete("003")  //Removes 003 from the set
-ID.add("001")     //Goes to add 001 to the set, no duplicates so nothing changes
-console.log(ID)
+let ID = new Set("001", "002", "003", "004");
+ID.add("005");     //Adds 005 to the set
+ID.delete("003");  //Removes 003 from the set
+ID.add("001");     //Goes to add 001 to the set, no duplicates so nothing changes
+console.log(ID);
 ```
 ### Maps
 Contains an array of key:value pairs
