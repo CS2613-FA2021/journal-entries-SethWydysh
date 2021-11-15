@@ -4,7 +4,7 @@
 ### Syntax & Semantics
 #### Variables
 #### Operators
-#### Functions.3
+#### Functions
 
 ### Built in Data Structures
 Racket has many built in datastructures
