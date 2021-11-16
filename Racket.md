@@ -17,18 +17,23 @@ Primitive data types are mutable:
 ```
 #### Operators
 Contains the basic arithmatic functions:
-+  -  *  /
+\+  \-  \*  \/
+
 expt          => exponent
+
 quotient      => quotient
+
 remainder     => aka modular division
-exact-inexact =>
+
+exact-inexact => Goes from fractional form to decimal form.
+
 ##### Boolean operators:
-not
-and
-or
+not, and, or
 #### String operators of interest:
 string-append => appends two strings
+
 string-ref    => refer to an index within a string
+
 format        => insert strings into the first using the term ~a
 ```Racket
 (format "~a name is ~a" "His" "Bobby"); => "His name is Bobby"
@@ -42,15 +47,15 @@ Racket has many built in datastructures
 
 #### Pairs
 To create a pair use the keyword "cons"
-To reference the first value use keywork "car"
-To reference the second value use keyowrk "cdr"
+- To reference the first value use keywork "car"
+- To reference the second value use keyowrk "cdr"
 
 #### Lists
 Lists are created with the keywork "list" or a single quote
-The Keyword "car" still references the first value
-The keyword "cdr" references all values after the first value
-The keyword "cons" will add the new value to the start of the list
-The keyword "append" will append two lists to each other
+- The Keyword "car" still references the first value
+- The keyword "cdr" references all values after the first value
+- The keyword "cons" will add the new value to the start of the list
+- The keyword "append" will append two lists to each other
 ```Racket
 (define myList '("this" "Is" "My" "List"))
 (car myList);                             => "this"
