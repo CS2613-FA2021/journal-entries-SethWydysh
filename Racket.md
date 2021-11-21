@@ -42,16 +42,18 @@ printf        => print a string
 #### Functions
 
 ### Built in Data Structures
-Racket has many built in datastructures
+Racket has many built in data structures for programmers to take advantage of, however many have perks or drawbacks which need to be considered when using them.
 
 
 #### Pairs
-To create a pair use the keyword "cons"
+To create a pair use the keyword "cons". Structure which contains two values.
 - To reference the first value use keywork "car"
 - To reference the second value use keyowrk "cdr"
 
 #### Lists
-Lists are created with the keywork "list" or a single quote
+Lists are created with the keywork "list" or a single quote. Made from a recursively defined pair, which is in the form of a linked list:
+\'(Pair1Value RemainderOfList(pair2Value RemainderOfList(Pair3Value RemainderOfList(Pair4Value NULL))))
+Has linear accessing time
 - The Keyword "car" still references the first value
 - The keyword "cdr" references all values after the first value
 - The keyword "cons" will add the new value to the start of the list
@@ -61,13 +63,45 @@ Lists are created with the keywork "list" or a single quote
 (car myList);                             => "this"
 (cdr myList);                             => '("Is" "My" "List")
 (cons "Hello" myList);                    => '("Hello" "This" "Is" "My" "List")
-(append myList '("Anyways," "Goodbye"));  => '("This" "Is" "My" "List" "...Goodbye")
+(append myList '("Anyways," "Goodbye"));  => '("this" "Is" "My" "List" "Anyways," "Goodbye")
+```
+<details>
+<summary>Sources</summary>
+https://docs.racket-lang.org/reference/pairs.html
+</details>
+
+#### Vector
+fixed length arrays using \#
+
+has constant time accessing of indecies.
+
+```Racket
+(define (ObjectsColliding(o1 o2))
+(equal? o1 o2)
+)
+(define player (vector 1 3 3))
+(define wall (vector 1 3 3))
+ObjectsColliding(player wall))
+)
 ```
 
-#### Hash Tables
+<details>
+<summary>Sources</summary>
+https://docs.racket-lang.org/rosette-guide/sec_vec.html
+https://docs.racket-lang.org/reference/vectors.html
+https://learnxinyminutes.com/docs/racket/
+</details>
 
-#### Dictionaries
 
+#### Maps / Dictionaries / Hashes
+Racket has the data structure Hashes built in, where hashes are a map of keys to values.
+Accesses values in constant time for both muttable and immutable maps.
+
+<details>
+<summary>Sources</summary>
+  https://learnxinyminutes.com/docs/racket/
+https://docs.racket-lang.org/reference/hashtables.html
+</details>
 #### Sets
 
 #### Structs
